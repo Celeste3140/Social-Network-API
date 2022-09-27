@@ -8,8 +8,8 @@ const {
 
 router.route('/').get(getAllUsers).post(createUser);
 
-router.route('/:Id').get(getUserById);
+router.route('/:id').get(getUserById);
 
-router.route('/:Id/:userId').delete(deleteUser);
+router.route('/:id/:userId').delete(deleteUser);
 
 module.exports = router;

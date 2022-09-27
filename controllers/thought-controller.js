@@ -25,7 +25,7 @@ const thoughtController = {
             .catch((err) => res.status(500).json(err));
     },
 
-    deleteCourse(req, res) {
+    deletethought(req, res) {
         Thought.findOneAndDelete({ _id: params.id })
             .then(dbThought => {
                 if (!dbThought) {

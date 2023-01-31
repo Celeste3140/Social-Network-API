@@ -3,10 +3,6 @@
 ## Description 
 This is an API for a social network web application. Users can share their thoughts, react to friends' thoughts and also create a friend list. 
 
-walkthrough video:
-
-walkthrough video link:
-
 ## User Story 
 ```
 AS A social media startup

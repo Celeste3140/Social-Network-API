@@ -1,7 +1,7 @@
 # Social-Network-API
 
 ## Description 
-This is an API for a social network web application. Users can share their thoughts, react to friends' thoughts and also create a friend list. 
+This is an API for a social network web application. Users can share their thoughts, react to friends' thoughts and also create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps. The seed data is created using Insomnia.
 
 ## User Story 
 ```
@@ -23,6 +23,14 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 ## Usage
 This application is not surrent deployed on any service platform. For installation and usage one must first "npm i" and then "npm start" or "nodemon" and then test application through an API client such as insomia.
+
+## Technologies 
+- Javascript 
+- Express.js
+- Mongoose
+- Moment.js
+- MongoDB
+- Express.js
 
 ## Contributing or Questions
 Email: Cbaltazar464@gmail.com
